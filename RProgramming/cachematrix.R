@@ -1,6 +1,6 @@
 ## These functions are intended to show the way R's lexical scoping can be
-## used to create lists of functions that behave as "objects", i.e. that
-## contain both functions and data.
+## used to create objects that contain a set of "state" data which is
+## accessible in multiple environments.
 ##
 ## Here, some data (a matrix) is stored along with some information about that
 ## data (the matrix inverse) that might be time- or memory-consuming to
